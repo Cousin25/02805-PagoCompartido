@@ -43,7 +43,7 @@ public class Main {
             SCN.nextLine();
 
             pagoComensal = importeCena / amigos;
-            
+
             System.out.printf("Pago por amigo: %.2f€%n", pagoComensal);
 
         } catch (Exception e) {
@@ -51,7 +51,5 @@ public class Main {
             //Borrar buffer
             SCN.nextLine();
         }
-
     }
-
 }
